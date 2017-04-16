@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		657DC7151EA38D690025FD15 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 657DC7141EA38D690025FD15 /* pokemon.csv */; };
 		659713BA1EA38772006C7652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659713B91EA38772006C7652 /* AppDelegate.swift */; };
 		659713BC1EA38772006C7652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659713BB1EA38772006C7652 /* ViewController.swift */; };
 		659713BF1EA38772006C7652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659713BD1EA38772006C7652 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		657DC7141EA38D690025FD15 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		659713B61EA38772006C7652 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659713B91EA38772006C7652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		659713BB1EA38772006C7652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				659713BB1EA38772006C7652 /* ViewController.swift */,
 				659713BD1EA38772006C7652 /* Main.storyboard */,
 				659713C01EA38772006C7652 /* Assets.xcassets */,
+				657DC7141EA38D690025FD15 /* pokemon.csv */,
 				659713C21EA38772006C7652 /* LaunchScreen.storyboard */,
 				659713C51EA38772006C7652 /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				659713C41EA38772006C7652 /* LaunchScreen.storyboard in Resources */,
 				659713C11EA38772006C7652 /* Assets.xcassets in Resources */,
+				657DC7151EA38D690025FD15 /* pokemon.csv in Resources */,
 				659713BF1EA38772006C7652 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +308,7 @@
 				659713CA1EA38772006C7652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
